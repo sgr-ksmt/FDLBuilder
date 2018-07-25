@@ -17,10 +17,17 @@
 		16391521210849B800264B75 /* NavigationInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16391520210849B800264B75 /* NavigationInfo.swift */; };
 		163915232108521A00264B75 /* OtherPlatform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163915222108521A00264B75 /* OtherPlatform.swift */; };
 		1639152521086C1300264B75 /* Options.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1639152421086C1300264B75 /* Options.swift */; };
+		1639152D2108722700264B75 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1639152C2108722700264B75 /* AppDelegate.swift */; };
+		1639152F2108722700264B75 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1639152E2108722700264B75 /* ViewController.swift */; };
+		163915322108722700264B75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 163915302108722700264B75 /* Main.storyboard */; };
+		163915342108722700264B75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 163915332108722700264B75 /* Assets.xcassets */; };
+		163915372108722700264B75 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 163915352108722700264B75 /* LaunchScreen.storyboard */; };
+		3EBEC47F9B3814602FBE0714 /* Pods_FDLBuilderDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 000C91EA7F741DF09C324B71 /* Pods_FDLBuilderDemo.framework */; };
 		63618507B8F9F3C2369AEDB6 /* Pods_FDLBuilder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99846EB62DDC085B95F6B5DC /* Pods_FDLBuilder.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		000C91EA7F741DF09C324B71 /* Pods_FDLBuilderDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FDLBuilderDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		160618F52106171F00DAAAE7 /* FDLBuilder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FDLBuilder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		160618F82106171F00DAAAE7 /* FDLBuilder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FDLBuilder.h; sourceTree = "<group>"; };
 		160618F92106171F00DAAAE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -33,9 +40,18 @@
 		16391520210849B800264B75 /* NavigationInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationInfo.swift; sourceTree = "<group>"; };
 		163915222108521A00264B75 /* OtherPlatform.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherPlatform.swift; sourceTree = "<group>"; };
 		1639152421086C1300264B75 /* Options.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Options.swift; sourceTree = "<group>"; };
+		1639152A2108722700264B75 /* FDLBuilderDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FDLBuilderDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1639152C2108722700264B75 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1639152E2108722700264B75 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		163915312108722700264B75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		163915332108722700264B75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		163915362108722700264B75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		163915382108722700264B75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A513D7B5886536CB7EB0F47 /* Pods-FDLBuilderDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FDLBuilderDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-FDLBuilderDemo/Pods-FDLBuilderDemo.release.xcconfig"; sourceTree = "<group>"; };
 		47C4F9C468E6390FF5EF1A41 /* Pods-FDLBuilder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FDLBuilder.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FDLBuilder/Pods-FDLBuilder.debug.xcconfig"; sourceTree = "<group>"; };
 		6A04A784299C87D76409A4B2 /* Pods-FDLBuilder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FDLBuilder.release.xcconfig"; path = "Pods/Target Support Files/Pods-FDLBuilder/Pods-FDLBuilder.release.xcconfig"; sourceTree = "<group>"; };
 		99846EB62DDC085B95F6B5DC /* Pods_FDLBuilder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FDLBuilder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C04FB95F9D4C186D1174AFF6 /* Pods-FDLBuilderDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FDLBuilderDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FDLBuilderDemo/Pods-FDLBuilderDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +63,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		163915272108722700264B75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EBEC47F9B3814602FBE0714 /* Pods_FDLBuilderDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -54,6 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				160618F72106171F00DAAAE7 /* FDLBuilder */,
+				1639152B2108722700264B75 /* FDLBuilderDemo */,
 				160618F62106171F00DAAAE7 /* Products */,
 				380BCA17784F0D6D68BAD902 /* Pods */,
 				761B14025C5B770627441004 /* Frameworks */,
@@ -64,6 +89,7 @@
 			isa = PBXGroup;
 			children = (
 				160618F52106171F00DAAAE7 /* FDLBuilder.framework */,
+				1639152A2108722700264B75 /* FDLBuilderDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -86,11 +112,26 @@
 			path = FDLBuilder;
 			sourceTree = "<group>";
 		};
+		1639152B2108722700264B75 /* FDLBuilderDemo */ = {
+			isa = PBXGroup;
+			children = (
+				1639152C2108722700264B75 /* AppDelegate.swift */,
+				1639152E2108722700264B75 /* ViewController.swift */,
+				163915302108722700264B75 /* Main.storyboard */,
+				163915332108722700264B75 /* Assets.xcassets */,
+				163915352108722700264B75 /* LaunchScreen.storyboard */,
+				163915382108722700264B75 /* Info.plist */,
+			);
+			path = FDLBuilderDemo;
+			sourceTree = "<group>";
+		};
 		380BCA17784F0D6D68BAD902 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
 				47C4F9C468E6390FF5EF1A41 /* Pods-FDLBuilder.debug.xcconfig */,
 				6A04A784299C87D76409A4B2 /* Pods-FDLBuilder.release.xcconfig */,
+				C04FB95F9D4C186D1174AFF6 /* Pods-FDLBuilderDemo.debug.xcconfig */,
+				1A513D7B5886536CB7EB0F47 /* Pods-FDLBuilderDemo.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -99,6 +140,7 @@
 			isa = PBXGroup;
 			children = (
 				99846EB62DDC085B95F6B5DC /* Pods_FDLBuilder.framework */,
+				000C91EA7F741DF09C324B71 /* Pods_FDLBuilderDemo.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -136,18 +178,41 @@
 			productReference = 160618F52106171F00DAAAE7 /* FDLBuilder.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		163915292108722700264B75 /* FDLBuilderDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 163915392108722700264B75 /* Build configuration list for PBXNativeTarget "FDLBuilderDemo" */;
+			buildPhases = (
+				416F567ADB8C87BC5957552E /* [CP] Check Pods Manifest.lock */,
+				163915262108722700264B75 /* Sources */,
+				163915272108722700264B75 /* Frameworks */,
+				163915282108722700264B75 /* Resources */,
+				8D6C5C6DBA528705E5EFAB06 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FDLBuilderDemo;
+			productName = FDLBuilderDemo;
+			productReference = 1639152A2108722700264B75 /* FDLBuilderDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		160618EC2106171F00DAAAE7 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0940;
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = "suguru-kishimoto";
 				TargetAttributes = {
 					160618F42106171F00DAAAE7 = {
 						CreatedOnToolsVersion = 9.4;
 						LastSwiftMigration = 0940;
+					};
+					163915292108722700264B75 = {
+						CreatedOnToolsVersion = 9.4;
 					};
 				};
 			};
@@ -157,6 +222,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 160618EB2106171F00DAAAE7;
 			productRefGroup = 160618F62106171F00DAAAE7 /* Products */;
@@ -164,6 +230,7 @@
 			projectRoot = "";
 			targets = (
 				160618F42106171F00DAAAE7 /* FDLBuilder */,
+				163915292108722700264B75 /* FDLBuilderDemo */,
 			);
 		};
 /* End PBXProject section */
@@ -173,6 +240,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		163915282108722700264B75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				163915372108722700264B75 /* LaunchScreen.storyboard in Resources */,
+				163915342108722700264B75 /* Assets.xcassets in Resources */,
+				163915322108722700264B75 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,6 +274,44 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		416F567ADB8C87BC5957552E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FDLBuilderDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8D6C5C6DBA528705E5EFAB06 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FDLBuilderDemo/Pods-FDLBuilderDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FDLBuilderDemo/Pods-FDLBuilderDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -216,7 +331,35 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		163915262108722700264B75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1639152F2108722700264B75 /* ViewController.swift in Sources */,
+				1639152D2108722700264B75 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		163915302108722700264B75 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				163915312108722700264B75 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		163915352108722700264B75 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				163915362108722700264B75 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		160618FB2106171F00DAAAE7 /* Debug */ = {
@@ -392,6 +535,42 @@
 			};
 			name = Release;
 		};
+		1639153A2108722700264B75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C04FB95F9D4C186D1174AFF6 /* Pods-FDLBuilderDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FDLBuilderDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-.FDLBuilderDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1639153B2108722700264B75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A513D7B5886536CB7EB0F47 /* Pods-FDLBuilderDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FDLBuilderDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-.FDLBuilderDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -409,6 +588,15 @@
 			buildConfigurations = (
 				160618FE2106171F00DAAAE7 /* Debug */,
 				160618FF2106171F00DAAAE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		163915392108722700264B75 /* Build configuration list for PBXNativeTarget "FDLBuilderDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1639153A2108722700264B75 /* Debug */,
+				1639153B2108722700264B75 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
