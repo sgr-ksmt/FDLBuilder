@@ -8,6 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		160618FA2106171F00DAAAE7 /* FDLBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 160618F82106171F00DAAAE7 /* FDLBuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		160619012106186600DAAAE7 /* FDLBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 160619002106186600DAAAE7 /* FDLBuilder.swift */; };
+		163915172108295800264B75 /* Analytics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163915162108295800264B75 /* Analytics.swift */; };
+		16391519210829F000264B75 /* iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16391518210829F000264B75 /* iOS.swift */; };
+		1639151B21082F5800264B75 /* AppStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1639151A21082F5800264B75 /* AppStore.swift */; };
+		1639151D2108381700264B75 /* Android.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1639151C2108381700264B75 /* Android.swift */; };
+		1639151F2108408900264B75 /* SocialMetaTag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1639151E2108408900264B75 /* SocialMetaTag.swift */; };
+		16391521210849B800264B75 /* NavigationInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16391520210849B800264B75 /* NavigationInfo.swift */; };
+		163915232108521A00264B75 /* OtherPlatform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163915222108521A00264B75 /* OtherPlatform.swift */; };
+		1639152521086C1300264B75 /* Options.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1639152421086C1300264B75 /* Options.swift */; };
 		63618507B8F9F3C2369AEDB6 /* Pods_FDLBuilder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99846EB62DDC085B95F6B5DC /* Pods_FDLBuilder.framework */; };
 /* End PBXBuildFile section */
 
@@ -15,6 +24,15 @@
 		160618F52106171F00DAAAE7 /* FDLBuilder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FDLBuilder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		160618F82106171F00DAAAE7 /* FDLBuilder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FDLBuilder.h; sourceTree = "<group>"; };
 		160618F92106171F00DAAAE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		160619002106186600DAAAE7 /* FDLBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FDLBuilder.swift; sourceTree = "<group>"; };
+		163915162108295800264B75 /* Analytics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Analytics.swift; sourceTree = "<group>"; };
+		16391518210829F000264B75 /* iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS.swift; sourceTree = "<group>"; };
+		1639151A21082F5800264B75 /* AppStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStore.swift; sourceTree = "<group>"; };
+		1639151C2108381700264B75 /* Android.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Android.swift; sourceTree = "<group>"; };
+		1639151E2108408900264B75 /* SocialMetaTag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialMetaTag.swift; sourceTree = "<group>"; };
+		16391520210849B800264B75 /* NavigationInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationInfo.swift; sourceTree = "<group>"; };
+		163915222108521A00264B75 /* OtherPlatform.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherPlatform.swift; sourceTree = "<group>"; };
+		1639152421086C1300264B75 /* Options.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Options.swift; sourceTree = "<group>"; };
 		47C4F9C468E6390FF5EF1A41 /* Pods-FDLBuilder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FDLBuilder.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FDLBuilder/Pods-FDLBuilder.debug.xcconfig"; sourceTree = "<group>"; };
 		6A04A784299C87D76409A4B2 /* Pods-FDLBuilder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FDLBuilder.release.xcconfig"; path = "Pods/Target Support Files/Pods-FDLBuilder/Pods-FDLBuilder.release.xcconfig"; sourceTree = "<group>"; };
 		99846EB62DDC085B95F6B5DC /* Pods_FDLBuilder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FDLBuilder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -55,6 +73,15 @@
 			children = (
 				160618F82106171F00DAAAE7 /* FDLBuilder.h */,
 				160618F92106171F00DAAAE7 /* Info.plist */,
+				160619002106186600DAAAE7 /* FDLBuilder.swift */,
+				1639152421086C1300264B75 /* Options.swift */,
+				163915222108521A00264B75 /* OtherPlatform.swift */,
+				16391520210849B800264B75 /* NavigationInfo.swift */,
+				1639151E2108408900264B75 /* SocialMetaTag.swift */,
+				1639151A21082F5800264B75 /* AppStore.swift */,
+				163915162108295800264B75 /* Analytics.swift */,
+				16391518210829F000264B75 /* iOS.swift */,
+				1639151C2108381700264B75 /* Android.swift */,
 			);
 			path = FDLBuilder;
 			sourceTree = "<group>";
@@ -120,6 +147,7 @@
 				TargetAttributes = {
 					160618F42106171F00DAAAE7 = {
 						CreatedOnToolsVersion = 9.4;
+						LastSwiftMigration = 0940;
 					};
 				};
 			};
@@ -176,6 +204,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16391519210829F000264B75 /* iOS.swift in Sources */,
+				163915172108295800264B75 /* Analytics.swift in Sources */,
+				160619012106186600DAAAE7 /* FDLBuilder.swift in Sources */,
+				1639151B21082F5800264B75 /* AppStore.swift in Sources */,
+				1639152521086C1300264B75 /* Options.swift in Sources */,
+				1639151F2108408900264B75 /* SocialMetaTag.swift in Sources */,
+				163915232108521A00264B75 /* OtherPlatform.swift in Sources */,
+				16391521210849B800264B75 /* NavigationInfo.swift in Sources */,
+				1639151D2108381700264B75 /* Android.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,6 +343,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 47C4F9C468E6390FF5EF1A41 /* Pods-FDLBuilder.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -322,6 +360,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "-.FDLBuilder";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -331,6 +370,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6A04A784299C87D76409A4B2 /* Pods-FDLBuilder.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
