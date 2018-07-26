@@ -18,9 +18,12 @@ class ViewController: UIViewController {
             print("1", url as Any)
         }
 
-        builder.build(.short) { (url, warnings, error) in
-            print("2", url as Any, warnings as Any, error as Any)
+        builder
+            .link("https://yahoo.co.jp")
+            .build(.short) { (url, warnings, error) in
+                print("2", url as Any, warnings as Any, error as Any)
         }
+
     }
 }
 
