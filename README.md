@@ -71,7 +71,7 @@ let builder = FDLBuilder(link: "https://example.com/top", domain: "example.page.
 | `socialMetaTag(_:)`       | `DynamicLinkSocialMetaTagParameters`          |
 | `navigationInfo(_:)`      | `DynamicLinkNavigationInfoParameters`         |
 | `otherPlatform(_:)`       | `DynamicLinkOtherPlatformParameters`          |
-| `options(_:|`             | `DynamicLinkComponentsOptions`                |
+| `options(_:)`             | `DynamicLinkComponentsOptions`                |
 
 - build link
 
