@@ -10,16 +10,17 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    let builder = FDLBuilder(link: URL(string: "https://google.co.jp")!, domain: "fdlbuilderdemo.page.link")
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        builder.build(.long) { url, _, _ in
+            print("1", url as Any)
+        }
+
+        builder.build(.short) { (url, warnings, error) in
+            print("2", url as Any, warnings as Any, error as Any)
+        }
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
-
 }
 

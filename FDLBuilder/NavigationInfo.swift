@@ -7,7 +7,6 @@ extension FDLBuilder {
 
         public var isForcedRedirectEnabled: Bool = false {
             didSet {
-                print(params.isForcedRedirectEnabled)
                 params.isForcedRedirectEnabled = isForcedRedirectEnabled
             }
         }

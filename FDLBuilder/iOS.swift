@@ -17,9 +17,9 @@ extension FDLBuilder {
             }
         }
 
-        public var fallbackURL: URL? {
+        public var fallbackURL: URLConvertible? {
             didSet {
-                params.fallbackURL = fallbackURL
+                params.fallbackURL = fallbackURL?.__url
             }
         }
 
@@ -35,9 +35,9 @@ extension FDLBuilder {
             }
         }
 
-        public var iPadFallbackURL: URL? {
+        public var iPadFallbackURL: URLConvertible? {
             didSet {
-                params.iPadFallbackURL = iPadFallbackURL
+                params.iPadFallbackURL = iPadFallbackURL?.__url
             }
         }
 

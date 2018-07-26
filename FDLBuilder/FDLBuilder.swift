@@ -15,14 +15,11 @@ public final class FDLBuilder {
     public private(set) var otherPlatform: OtherPlatform?
     public private(set) var options: Options?
 
-    public init(link: URL, domain: String) {
+    public init(link: URLConvertible, domain: String) {
+        guard let link = link.__url else {
+            fatalError("invalid url")
+        }
         component = DynamicLinkComponents(link: link, domain: domain)
-        print(component.analyticsParameters as Any)
-        print(component.iOSParameters as Any)
-        print(component.androidParameters as Any)
-        print(component.socialMetaTagParameters as Any)
-        print(component.navigationInfoParameters as Any)
-        print(component.otherPlatformParameters as Any)
     }
 
     public func analytics(_ block: (Analytics) -> Analytics?) -> Self {

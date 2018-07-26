@@ -8,12 +8,11 @@ extension FDLBuilder {
         init(packageName: String) {
             self.packageName = packageName
             params = DynamicLinkAndroidParameters(packageName: packageName)
-            print(params.minimumVersion)
         }
 
-        public var fallbackURL: URL? {
+        public var fallbackURL: URLConvertible? {
             didSet {
-                params.fallbackURL = fallbackURL
+                params.fallbackURL = fallbackURL?.__url
             }
         }
 

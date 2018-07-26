@@ -5,9 +5,9 @@ extension FDLBuilder {
     public final class OtherPlatform {
         let params = DynamicLinkOtherPlatformParameters()
 
-        public var fallbackUrl: URL? {
+        public var fallbackUrl: URLConvertible? {
             didSet {
-                params.fallbackUrl = fallbackUrl
+                params.fallbackUrl = fallbackUrl?.__url
             }
         }
     }

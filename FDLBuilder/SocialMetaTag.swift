@@ -16,9 +16,9 @@ extension FDLBuilder {
                 params.descriptionText = descriptionText
             }
         }
-        public var imageURL: URL? {
+        public var imageURL: URLConvertible? {
             didSet {
-                params.imageURL = imageURL
+                params.imageURL = imageURL?.__url
             }
         }
     }

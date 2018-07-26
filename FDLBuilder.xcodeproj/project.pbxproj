@@ -22,6 +22,18 @@
 		163915322108722700264B75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 163915302108722700264B75 /* Main.storyboard */; };
 		163915342108722700264B75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 163915332108722700264B75 /* Assets.xcassets */; };
 		163915372108722700264B75 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 163915352108722700264B75 /* LaunchScreen.storyboard */; };
+		1639153D210873AC00264B75 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1639153C210873AC00264B75 /* GoogleService-Info.plist */; };
+		1639153E2108744200264B75 /* FDLBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 160619002106186600DAAAE7 /* FDLBuilder.swift */; };
+		1639153F2108744200264B75 /* Options.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1639152421086C1300264B75 /* Options.swift */; };
+		163915402108744200264B75 /* OtherPlatform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163915222108521A00264B75 /* OtherPlatform.swift */; };
+		163915412108744200264B75 /* NavigationInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16391520210849B800264B75 /* NavigationInfo.swift */; };
+		163915422108744200264B75 /* SocialMetaTag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1639151E2108408900264B75 /* SocialMetaTag.swift */; };
+		163915432108744200264B75 /* AppStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1639151A21082F5800264B75 /* AppStore.swift */; };
+		163915442108744200264B75 /* Analytics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163915162108295800264B75 /* Analytics.swift */; };
+		163915452108744200264B75 /* iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16391518210829F000264B75 /* iOS.swift */; };
+		163915462108744200264B75 /* Android.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1639151C2108381700264B75 /* Android.swift */; };
+		163915482108780300264B75 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163915472108780300264B75 /* Helper.swift */; };
+		163915492108794F00264B75 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163915472108780300264B75 /* Helper.swift */; };
 		3EBEC47F9B3814602FBE0714 /* Pods_FDLBuilderDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 000C91EA7F741DF09C324B71 /* Pods_FDLBuilderDemo.framework */; };
 		63618507B8F9F3C2369AEDB6 /* Pods_FDLBuilder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99846EB62DDC085B95F6B5DC /* Pods_FDLBuilder.framework */; };
 /* End PBXBuildFile section */
@@ -47,6 +59,8 @@
 		163915332108722700264B75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		163915362108722700264B75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		163915382108722700264B75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1639153C210873AC00264B75 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		163915472108780300264B75 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
 		1A513D7B5886536CB7EB0F47 /* Pods-FDLBuilderDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FDLBuilderDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-FDLBuilderDemo/Pods-FDLBuilderDemo.release.xcconfig"; sourceTree = "<group>"; };
 		47C4F9C468E6390FF5EF1A41 /* Pods-FDLBuilder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FDLBuilder.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FDLBuilder/Pods-FDLBuilder.debug.xcconfig"; sourceTree = "<group>"; };
 		6A04A784299C87D76409A4B2 /* Pods-FDLBuilder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FDLBuilder.release.xcconfig"; path = "Pods/Target Support Files/Pods-FDLBuilder/Pods-FDLBuilder.release.xcconfig"; sourceTree = "<group>"; };
@@ -108,6 +122,7 @@
 				163915162108295800264B75 /* Analytics.swift */,
 				16391518210829F000264B75 /* iOS.swift */,
 				1639151C2108381700264B75 /* Android.swift */,
+				163915472108780300264B75 /* Helper.swift */,
 			);
 			path = FDLBuilder;
 			sourceTree = "<group>";
@@ -121,6 +136,7 @@
 				163915332108722700264B75 /* Assets.xcassets */,
 				163915352108722700264B75 /* LaunchScreen.storyboard */,
 				163915382108722700264B75 /* Info.plist */,
+				1639153C210873AC00264B75 /* GoogleService-Info.plist */,
 			);
 			path = FDLBuilderDemo;
 			sourceTree = "<group>";
@@ -248,6 +264,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				163915372108722700264B75 /* LaunchScreen.storyboard in Resources */,
+				1639153D210873AC00264B75 /* GoogleService-Info.plist in Resources */,
 				163915342108722700264B75 /* Assets.xcassets in Resources */,
 				163915322108722700264B75 /* Main.storyboard in Resources */,
 			);
@@ -326,6 +343,7 @@
 				1639152521086C1300264B75 /* Options.swift in Sources */,
 				1639151F2108408900264B75 /* SocialMetaTag.swift in Sources */,
 				163915232108521A00264B75 /* OtherPlatform.swift in Sources */,
+				163915482108780300264B75 /* Helper.swift in Sources */,
 				16391521210849B800264B75 /* NavigationInfo.swift in Sources */,
 				1639151D2108381700264B75 /* Android.swift in Sources */,
 			);
@@ -335,8 +353,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				163915422108744200264B75 /* SocialMetaTag.swift in Sources */,
+				163915452108744200264B75 /* iOS.swift in Sources */,
+				163915402108744200264B75 /* OtherPlatform.swift in Sources */,
+				1639153F2108744200264B75 /* Options.swift in Sources */,
 				1639152F2108722700264B75 /* ViewController.swift in Sources */,
+				163915462108744200264B75 /* Android.swift in Sources */,
+				163915412108744200264B75 /* NavigationInfo.swift in Sources */,
 				1639152D2108722700264B75 /* AppDelegate.swift in Sources */,
+				1639153E2108744200264B75 /* FDLBuilder.swift in Sources */,
+				163915432108744200264B75 /* AppStore.swift in Sources */,
+				163915442108744200264B75 /* Analytics.swift in Sources */,
+				163915492108794F00264B75 /* Helper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
