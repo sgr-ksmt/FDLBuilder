@@ -117,7 +117,6 @@ func issueItemLink(itemID: String, completion: @escaping (URL?) -> Void) {
 ### CocoaPods
 
 ```ruby
-# Firebase 5.x
 pod 'FDLBuilder'
 ```
 
