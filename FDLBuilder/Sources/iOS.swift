@@ -1,5 +1,5 @@
 import Foundation
-import Firebase
+import FirebaseDynamicLinks
 
 extension FDLBuilder {
     public final class iOS {

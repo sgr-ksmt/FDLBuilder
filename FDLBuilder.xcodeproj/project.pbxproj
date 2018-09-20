@@ -8,32 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		160618FA2106171F00DAAAE7 /* FDLBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 160618F82106171F00DAAAE7 /* FDLBuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		160619012106186600DAAAE7 /* FDLBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 160619002106186600DAAAE7 /* FDLBuilder.swift */; };
-		163915172108295800264B75 /* Analytics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163915162108295800264B75 /* Analytics.swift */; };
-		16391519210829F000264B75 /* iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16391518210829F000264B75 /* iOS.swift */; };
-		1639151B21082F5800264B75 /* AppStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1639151A21082F5800264B75 /* AppStore.swift */; };
-		1639151D2108381700264B75 /* Android.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1639151C2108381700264B75 /* Android.swift */; };
-		1639151F2108408900264B75 /* SocialMetaTag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1639151E2108408900264B75 /* SocialMetaTag.swift */; };
-		16391521210849B800264B75 /* NavigationInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16391520210849B800264B75 /* NavigationInfo.swift */; };
-		163915232108521A00264B75 /* OtherPlatform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163915222108521A00264B75 /* OtherPlatform.swift */; };
-		1639152521086C1300264B75 /* Options.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1639152421086C1300264B75 /* Options.swift */; };
+		1627EB3D2153AC00000D9511 /* Analytics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1627EB332153AC00000D9511 /* Analytics.swift */; };
+		1627EB3E2153AC00000D9511 /* Options.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1627EB342153AC00000D9511 /* Options.swift */; };
+		1627EB3F2153AC00000D9511 /* FDLBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1627EB352153AC00000D9511 /* FDLBuilder.swift */; };
+		1627EB402153AC00000D9511 /* iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1627EB362153AC00000D9511 /* iOS.swift */; };
+		1627EB412153AC00000D9511 /* SocialMetaTag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1627EB372153AC00000D9511 /* SocialMetaTag.swift */; };
+		1627EB422153AC00000D9511 /* OtherPlatform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1627EB382153AC00000D9511 /* OtherPlatform.swift */; };
+		1627EB432153AC00000D9511 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1627EB392153AC00000D9511 /* Helper.swift */; };
+		1627EB442153AC00000D9511 /* AppStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1627EB3A2153AC00000D9511 /* AppStore.swift */; };
+		1627EB452153AC00000D9511 /* Android.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1627EB3B2153AC00000D9511 /* Android.swift */; };
+		1627EB462153AC00000D9511 /* NavigationInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1627EB3C2153AC00000D9511 /* NavigationInfo.swift */; };
+		1627EB472153ACEF000D9511 /* Analytics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1627EB332153AC00000D9511 /* Analytics.swift */; };
+		1627EB482153ACEF000D9511 /* Options.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1627EB342153AC00000D9511 /* Options.swift */; };
+		1627EB492153ACEF000D9511 /* FDLBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1627EB352153AC00000D9511 /* FDLBuilder.swift */; };
+		1627EB4A2153ACEF000D9511 /* iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1627EB362153AC00000D9511 /* iOS.swift */; };
+		1627EB4B2153ACEF000D9511 /* SocialMetaTag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1627EB372153AC00000D9511 /* SocialMetaTag.swift */; };
+		1627EB4C2153ACEF000D9511 /* OtherPlatform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1627EB382153AC00000D9511 /* OtherPlatform.swift */; };
+		1627EB4D2153ACEF000D9511 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1627EB392153AC00000D9511 /* Helper.swift */; };
+		1627EB4E2153ACEF000D9511 /* AppStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1627EB3A2153AC00000D9511 /* AppStore.swift */; };
+		1627EB4F2153ACEF000D9511 /* Android.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1627EB3B2153AC00000D9511 /* Android.swift */; };
+		1627EB502153ACEF000D9511 /* NavigationInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1627EB3C2153AC00000D9511 /* NavigationInfo.swift */; };
 		1639152D2108722700264B75 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1639152C2108722700264B75 /* AppDelegate.swift */; };
 		1639152F2108722700264B75 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1639152E2108722700264B75 /* ViewController.swift */; };
 		163915322108722700264B75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 163915302108722700264B75 /* Main.storyboard */; };
 		163915342108722700264B75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 163915332108722700264B75 /* Assets.xcassets */; };
 		163915372108722700264B75 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 163915352108722700264B75 /* LaunchScreen.storyboard */; };
 		1639153D210873AC00264B75 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1639153C210873AC00264B75 /* GoogleService-Info.plist */; };
-		1639153E2108744200264B75 /* FDLBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 160619002106186600DAAAE7 /* FDLBuilder.swift */; };
-		1639153F2108744200264B75 /* Options.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1639152421086C1300264B75 /* Options.swift */; };
-		163915402108744200264B75 /* OtherPlatform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163915222108521A00264B75 /* OtherPlatform.swift */; };
-		163915412108744200264B75 /* NavigationInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16391520210849B800264B75 /* NavigationInfo.swift */; };
-		163915422108744200264B75 /* SocialMetaTag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1639151E2108408900264B75 /* SocialMetaTag.swift */; };
-		163915432108744200264B75 /* AppStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1639151A21082F5800264B75 /* AppStore.swift */; };
-		163915442108744200264B75 /* Analytics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163915162108295800264B75 /* Analytics.swift */; };
-		163915452108744200264B75 /* iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16391518210829F000264B75 /* iOS.swift */; };
-		163915462108744200264B75 /* Android.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1639151C2108381700264B75 /* Android.swift */; };
-		163915482108780300264B75 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163915472108780300264B75 /* Helper.swift */; };
-		163915492108794F00264B75 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163915472108780300264B75 /* Helper.swift */; };
 		3EBEC47F9B3814602FBE0714 /* Pods_FDLBuilderDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 000C91EA7F741DF09C324B71 /* Pods_FDLBuilderDemo.framework */; };
 		63618507B8F9F3C2369AEDB6 /* Pods_FDLBuilder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99846EB62DDC085B95F6B5DC /* Pods_FDLBuilder.framework */; };
 /* End PBXBuildFile section */
@@ -43,15 +43,16 @@
 		160618F52106171F00DAAAE7 /* FDLBuilder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FDLBuilder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		160618F82106171F00DAAAE7 /* FDLBuilder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FDLBuilder.h; sourceTree = "<group>"; };
 		160618F92106171F00DAAAE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		160619002106186600DAAAE7 /* FDLBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FDLBuilder.swift; sourceTree = "<group>"; };
-		163915162108295800264B75 /* Analytics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Analytics.swift; sourceTree = "<group>"; };
-		16391518210829F000264B75 /* iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS.swift; sourceTree = "<group>"; };
-		1639151A21082F5800264B75 /* AppStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStore.swift; sourceTree = "<group>"; };
-		1639151C2108381700264B75 /* Android.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Android.swift; sourceTree = "<group>"; };
-		1639151E2108408900264B75 /* SocialMetaTag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialMetaTag.swift; sourceTree = "<group>"; };
-		16391520210849B800264B75 /* NavigationInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationInfo.swift; sourceTree = "<group>"; };
-		163915222108521A00264B75 /* OtherPlatform.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherPlatform.swift; sourceTree = "<group>"; };
-		1639152421086C1300264B75 /* Options.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Options.swift; sourceTree = "<group>"; };
+		1627EB332153AC00000D9511 /* Analytics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Analytics.swift; sourceTree = "<group>"; };
+		1627EB342153AC00000D9511 /* Options.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Options.swift; sourceTree = "<group>"; };
+		1627EB352153AC00000D9511 /* FDLBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FDLBuilder.swift; sourceTree = "<group>"; };
+		1627EB362153AC00000D9511 /* iOS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = iOS.swift; sourceTree = "<group>"; };
+		1627EB372153AC00000D9511 /* SocialMetaTag.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocialMetaTag.swift; sourceTree = "<group>"; };
+		1627EB382153AC00000D9511 /* OtherPlatform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OtherPlatform.swift; sourceTree = "<group>"; };
+		1627EB392153AC00000D9511 /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		1627EB3A2153AC00000D9511 /* AppStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppStore.swift; sourceTree = "<group>"; };
+		1627EB3B2153AC00000D9511 /* Android.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Android.swift; sourceTree = "<group>"; };
+		1627EB3C2153AC00000D9511 /* NavigationInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationInfo.swift; sourceTree = "<group>"; };
 		1639152A2108722700264B75 /* FDLBuilderDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FDLBuilderDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1639152C2108722700264B75 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1639152E2108722700264B75 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -60,7 +61,6 @@
 		163915362108722700264B75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		163915382108722700264B75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1639153C210873AC00264B75 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		163915472108780300264B75 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
 		1A513D7B5886536CB7EB0F47 /* Pods-FDLBuilderDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FDLBuilderDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-FDLBuilderDemo/Pods-FDLBuilderDemo.release.xcconfig"; sourceTree = "<group>"; };
 		47C4F9C468E6390FF5EF1A41 /* Pods-FDLBuilder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FDLBuilder.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FDLBuilder/Pods-FDLBuilder.debug.xcconfig"; sourceTree = "<group>"; };
 		6A04A784299C87D76409A4B2 /* Pods-FDLBuilder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FDLBuilder.release.xcconfig"; path = "Pods/Target Support Files/Pods-FDLBuilder/Pods-FDLBuilder.release.xcconfig"; sourceTree = "<group>"; };
@@ -111,20 +111,28 @@
 		160618F72106171F00DAAAE7 /* FDLBuilder */ = {
 			isa = PBXGroup;
 			children = (
+				1627EB322153AC00000D9511 /* Sources */,
 				160618F82106171F00DAAAE7 /* FDLBuilder.h */,
 				160618F92106171F00DAAAE7 /* Info.plist */,
-				160619002106186600DAAAE7 /* FDLBuilder.swift */,
-				1639152421086C1300264B75 /* Options.swift */,
-				163915222108521A00264B75 /* OtherPlatform.swift */,
-				16391520210849B800264B75 /* NavigationInfo.swift */,
-				1639151E2108408900264B75 /* SocialMetaTag.swift */,
-				1639151A21082F5800264B75 /* AppStore.swift */,
-				163915162108295800264B75 /* Analytics.swift */,
-				16391518210829F000264B75 /* iOS.swift */,
-				1639151C2108381700264B75 /* Android.swift */,
-				163915472108780300264B75 /* Helper.swift */,
 			);
 			path = FDLBuilder;
+			sourceTree = "<group>";
+		};
+		1627EB322153AC00000D9511 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				1627EB332153AC00000D9511 /* Analytics.swift */,
+				1627EB342153AC00000D9511 /* Options.swift */,
+				1627EB352153AC00000D9511 /* FDLBuilder.swift */,
+				1627EB362153AC00000D9511 /* iOS.swift */,
+				1627EB372153AC00000D9511 /* SocialMetaTag.swift */,
+				1627EB382153AC00000D9511 /* OtherPlatform.swift */,
+				1627EB392153AC00000D9511 /* Helper.swift */,
+				1627EB3A2153AC00000D9511 /* AppStore.swift */,
+				1627EB3B2153AC00000D9511 /* Android.swift */,
+				1627EB3C2153AC00000D9511 /* NavigationInfo.swift */,
+			);
+			path = Sources;
 			sourceTree = "<group>";
 		};
 		1639152B2108722700264B75 /* FDLBuilderDemo */ = {
@@ -336,16 +344,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				16391519210829F000264B75 /* iOS.swift in Sources */,
-				163915172108295800264B75 /* Analytics.swift in Sources */,
-				160619012106186600DAAAE7 /* FDLBuilder.swift in Sources */,
-				1639151B21082F5800264B75 /* AppStore.swift in Sources */,
-				1639152521086C1300264B75 /* Options.swift in Sources */,
-				1639151F2108408900264B75 /* SocialMetaTag.swift in Sources */,
-				163915232108521A00264B75 /* OtherPlatform.swift in Sources */,
-				163915482108780300264B75 /* Helper.swift in Sources */,
-				16391521210849B800264B75 /* NavigationInfo.swift in Sources */,
-				1639151D2108381700264B75 /* Android.swift in Sources */,
+				1627EB3E2153AC00000D9511 /* Options.swift in Sources */,
+				1627EB432153AC00000D9511 /* Helper.swift in Sources */,
+				1627EB422153AC00000D9511 /* OtherPlatform.swift in Sources */,
+				1627EB412153AC00000D9511 /* SocialMetaTag.swift in Sources */,
+				1627EB452153AC00000D9511 /* Android.swift in Sources */,
+				1627EB3D2153AC00000D9511 /* Analytics.swift in Sources */,
+				1627EB3F2153AC00000D9511 /* FDLBuilder.swift in Sources */,
+				1627EB402153AC00000D9511 /* iOS.swift in Sources */,
+				1627EB442153AC00000D9511 /* AppStore.swift in Sources */,
+				1627EB462153AC00000D9511 /* NavigationInfo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -353,18 +361,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				163915422108744200264B75 /* SocialMetaTag.swift in Sources */,
-				163915452108744200264B75 /* iOS.swift in Sources */,
-				163915402108744200264B75 /* OtherPlatform.swift in Sources */,
-				1639153F2108744200264B75 /* Options.swift in Sources */,
+				1627EB4B2153ACEF000D9511 /* SocialMetaTag.swift in Sources */,
+				1627EB4E2153ACEF000D9511 /* AppStore.swift in Sources */,
+				1627EB492153ACEF000D9511 /* FDLBuilder.swift in Sources */,
+				1627EB502153ACEF000D9511 /* NavigationInfo.swift in Sources */,
+				1627EB482153ACEF000D9511 /* Options.swift in Sources */,
 				1639152F2108722700264B75 /* ViewController.swift in Sources */,
-				163915462108744200264B75 /* Android.swift in Sources */,
-				163915412108744200264B75 /* NavigationInfo.swift in Sources */,
+				1627EB4F2153ACEF000D9511 /* Android.swift in Sources */,
+				1627EB4A2153ACEF000D9511 /* iOS.swift in Sources */,
+				1627EB4D2153ACEF000D9511 /* Helper.swift in Sources */,
+				1627EB4C2153ACEF000D9511 /* OtherPlatform.swift in Sources */,
 				1639152D2108722700264B75 /* AppDelegate.swift in Sources */,
-				1639153E2108744200264B75 /* FDLBuilder.swift in Sources */,
-				163915432108744200264B75 /* AppStore.swift in Sources */,
-				163915442108744200264B75 /* Analytics.swift in Sources */,
-				163915492108794F00264B75 /* Helper.swift in Sources */,
+				1627EB472153ACEF000D9511 /* Analytics.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -442,12 +450,13 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -499,11 +508,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";

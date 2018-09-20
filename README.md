@@ -63,7 +63,7 @@ let builder = FDLBuilder(link: "https://example.com/top", domain: "example.page.
 
 #### Parameters
 
-| method                    | parameter class                               |
+| method                    | parameter class                       s       |
 | ------------------------- | --------------------------------------------- |
 | `iOS(bundleID:_:)`        | `DynamicLinkIOSParameters`                    |
 | `appStore(_:)`            | `DynamicLinkItunesConnectAnalyticsParameters` |

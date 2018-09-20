@@ -1,5 +1,5 @@
 import Foundation
-import Firebase
+import FirebaseDynamicLinks
 
 public final class FDLBuilder {
     public enum URLLength {
