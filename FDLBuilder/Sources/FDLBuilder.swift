@@ -21,7 +21,10 @@ public final class FDLBuilder {
             fatalError("invalid url")
         }
         initialLink = link
-        component = DynamicLinkComponents(link: link, domain: domain)
+        guard let component = DynamicLinkComponents(link: link, domainURIPrefix: domain) else {
+            fatalError("DynamicLinkComponents was not created.")
+        }
+        self.component = component
     }
 
     @discardableResult
