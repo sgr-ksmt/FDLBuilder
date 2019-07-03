@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "FDLBuilder"
-  s.version          = "0.1.0"
+  s.version          = "0.2.0"
   s.summary          = "FDL(Firebase Dynamic Links) builder."
   s.homepage         = "https://github.com/sgr-ksmt/FDLBuilder"
   s.license          = 'MIT'
@@ -10,5 +10,5 @@ Pod::Spec.new do |s|
   s.requires_arc     = true
   s.source_files     = "FDLBuilder/Sources/*.swift"
   s.static_framework = true
-  s.dependency "Firebase/DynamicLinks", "~> 5.0"
+  s.dependency "Firebase/DynamicLinks", "~> 6.0"
 end
